@@ -26,4 +26,16 @@ public class Module3 {
         return "";
     }
 
+    class Module1Output {
+        private String chiffrement;
+
+        public String getChiffrement() {
+            return chiffrement;
+        }
+
+        public void setChiffrement(String chiffrement) {
+            this.chiffrement = chiffrement;
+        }
+    }
+
 }
